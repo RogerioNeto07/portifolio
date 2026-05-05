@@ -1,0 +1,52 @@
+.contato-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.titulo-pagina {
+  font-size: 24px;
+  color: #fff;
+}
+
+.info-geral {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.item-contato {
+  font-size: 18px;
+}
+
+.label { color: #00f2ff; margin-right: 10px; font-weight: bold; }
+.valor { color: #ccc; }
+
+.redes-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.card-rede {
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.card-rede:hover {
+  border-color: #00f2ff;
+  transform: translateX(10px);
+  background-color: #222;
+}

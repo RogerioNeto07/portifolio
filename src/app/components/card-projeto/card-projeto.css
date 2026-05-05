@@ -1,0 +1,19 @@
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card:hover {
+  border-color: #00f2ff;
+  background-color: #222;
+}
+
+.nome-box { font-weight: bold; color: #fff; }
+.desc-box { color: #888; font-size: 14px; }

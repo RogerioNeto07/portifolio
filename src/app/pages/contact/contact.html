@@ -1,0 +1,23 @@
+<div class="contato-container">
+  <h2 class="titulo-pagina">Informações de contato:</h2>
+
+  <div class="info-geral">
+    <div class="item-contato">
+      <span class="label">E-mail:</span>
+      <span class="valor">{{ email() }}</span>
+    </div>
+    <div class="item-contato">
+      <span class="label">Telefone:</span>
+      <span class="valor">{{ telefone() }}</span>
+    </div>
+  </div>
+
+  <div class="redes-lista">
+    @for (rede of redesSociais(); track rede.nome) {
+      <a [href]="rede.link" target="_blank" class="card-rede">
+        <i [class]="rede.icone"></i>
+        <span>{{ rede.nome }} -></span>
+      </a>
+    }
+  </div>
+</div>

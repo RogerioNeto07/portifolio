@@ -1,0 +1,35 @@
+<div class="resume-container">
+  <h2 class="titulo-pagina">Currículo</h2>
+
+  <section class="resume-section">
+    <h3><i class="fas fa-graduation-cap"></i> Escolaridade:</h3>
+    @for (item of formacao(); track item.curso) {
+      <div class="resume-card">
+        <h4>{{ item.curso }}</h4>
+        <p>{{ item.instituicao }} | {{ item.ano }}</p>
+      </div>
+    }
+  </section>
+
+  <section class="resume-section">
+    <h3><i class="fas fa-code"></i> Competências:</h3>
+    <div class="tags-container">
+      @for (skill of habilidades(); track skill) {
+        <span class="skill-tag">{{ skill }}</span>
+      }
+    </div>
+  </section>
+
+  <section class="resume-section">
+    <h3><i class="fas fa-briefcase"></i> Experiência:</h3>
+    @for (exp of experiencias(); track exp.cargo) {
+      <div class="resume-card">
+        <div class="card-header">
+          <h4>{{ exp.cargo }}</h4>
+          <span>{{ exp.empresa }}</span>
+        </div>
+        <p class="desc-exp">{{ exp.desc }}</p>
+      </div>
+    }
+  </section>
+</div>

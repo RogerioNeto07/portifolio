@@ -1,0 +1,21 @@
+.menu-home {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 100%;
+}
+
+.card-botao {
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+  border-radius: 15px;
+  padding: 30px;
+  cursor: pointer;
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.card-botao:hover {
+  border-color: #00f2ff;
+  transform: scale(1.02);
+}

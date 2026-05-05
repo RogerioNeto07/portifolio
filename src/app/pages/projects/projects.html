@@ -1,0 +1,12 @@
+<h2 class="titulo-pagina">Projetos:</h2>
+
+<div class="grid-projetos">
+  @for (item of meusProjetos(); track item.nome) {
+    <app-card-projeto 
+      [projeto]="item" 
+      (clicado)="aviso($event)">
+    </app-card-projeto>
+  } @empty {
+    <p>Nenhum projeto encontrado.</p>
+  }
+</div>
