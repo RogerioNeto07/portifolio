@@ -6,11 +6,10 @@
 
 .titulo-pagina {
   font-size: 24px;
-  color: #fff;
+  /* color: #fff; */
 }
 
 .info-geral {
-  background-color: #1a1a1a;
   border: 1px solid #333;
   padding: 25px;
   border-radius: 15px;
@@ -42,7 +41,7 @@
 }
 
 .card-rede {
-  background-color: #1a1a1a;
+
   border: 2px solid #333;
   border-radius: 12px;
   padding: 20px;

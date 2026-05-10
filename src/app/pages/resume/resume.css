@@ -5,7 +5,7 @@
   color: white;
 }
 
-.titulo-pagina { font-size: 28px; border-bottom: 2px solid #333; padding-bottom: 10px; }
+.titulo-pagina { font-size: 28px; border-bottom: 2px solid #333; padding-bottom: 10px; color: #1a1a1a; }
 
 h3 { color: #6001dc; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
 

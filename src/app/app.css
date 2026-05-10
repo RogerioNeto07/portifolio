@@ -2,8 +2,8 @@
   display: grid;
   grid-template-columns: 350px 1fr;
   height: 100vh;
-  background-color: #121212;
-  color: white;
+  /* background-color: #121212;
+  color: white; */
 }
 
 .sidebar {

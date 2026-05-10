@@ -5,23 +5,109 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  background-color: #121212;
   overflow-x: hidden;
+}
+
+html.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+/* ----- GLOBAL ----- */
+
+html.light {
+  background-color: #f0f0f0;
+  color: #121212;
+}
+
+/* ----- HOME PAGE ----- */
+
+html.dark .card-botao {
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+}
+
+html.dark .card-botao:hover {
+  background-color: #ffffff20;
+}
+
+html.light .card-botao {
+  background-color: #e3e3e3;
+  border: 2px solid #000000;
+}
+
+html.light .card-botao:hover {
+  background-color: #ffffff20;
+}
+
+/* ----- CONTACT PAGE ----- */
+
+html.dark .info-geral {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+}
+
+html.light .info-geral {
+  background-color: #242424;
+  border: 1px solid #000000;
+}
+
+html.dark .card-rede {
+  background-color: #1a1a1a;
+  border: 2px solid #333;
+}
+
+html.light .card-rede {
+  background-color: #242424;
+  border: 2px solid #000000;
 }
 
 * {
   box-sizing: border-box;
 }
 
+html.dark .return_link {
+  background-color: #ffffff12;
+  border: 1px solid #ffffff4b;
+  color: #ffffff;
+}
+
+html.dark .return_link:hover {
+  background-color: #ffffff22;
+  border-color: #6001dc;
+}
+
+html.light .return_link {
+  background-color: #41414112;
+  border: 1px solid #0101014b;
+  color:#000000;
+}
+
+html.light .return_link:hover {
+  background-color: #00000022;
+  border-color: #6001dc;
+}
+
+/* ----- EXPERIENCE PAGE ----- */
+
+html.dark .titulo-pagina {
+  color: #ffffff;
+}
+
+html.light .titulo-pagina {
+  color: #1a1a1a;
+}
+
 .return_link {
-  color: #fff;
+  /* color: #fff; */
+  cursor: pointer;
   text-decoration: none;
   font-size: 14px;
   display: inline-flex;
   align-items: center;
   padding: 12px 12px;
   border-radius: 100%;
-  border: 1px solid #ffffff4b;
+  /* border: 1px solid #ffffff4b; */
   background-color: #ffffff12;
   transition: all 0.3s;
 }
