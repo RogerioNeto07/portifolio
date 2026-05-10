@@ -15,7 +15,14 @@
   transition: transform 0.3s, border-color 0.3s;
 }
 
+.card-botao h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .card-botao:hover {
-  border-color: #00f2ff;
+  border-color: #6001dc;
   transform: scale(1.02);
+  background-color: #ffffff20;
 }

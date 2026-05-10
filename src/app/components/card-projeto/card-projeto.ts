@@ -9,7 +9,7 @@ import { ResumirPipe } from '../../pipes/resumir-pipe';
   styleUrls: ['./card-projeto.css'],
 })
 export class CardProjeto {
-  projeto = input.required<{nome: string, desc: string}>();
+  projeto = input.required<{nome: string, img?: string, desc: string}>();
   clicado = output<string>();
 
   notificarPai() {

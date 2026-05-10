@@ -1,3 +1,5 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
 html, body {
   margin: 0;
   padding: 0;
@@ -9,4 +11,22 @@ html, body {
 
 * {
   box-sizing: border-box;
+}
+
+.return_link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 12px;
+  border-radius: 100%;
+  border: 1px solid #ffffff4b;
+  background-color: #ffffff12;
+  transition: all 0.3s;
+}
+
+.return_link:hover {
+  background-color: #ffffff22;
+  border-color: #6001dc;
 }

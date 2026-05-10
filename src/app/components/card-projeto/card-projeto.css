@@ -11,9 +11,15 @@
 }
 
 .card:hover {
-  border-color: #00f2ff;
+  border-color: #6001dc;
   background-color: #222;
 }
 
 .nome-box { font-weight: bold; color: #fff; }
 .desc-box { color: #888; font-size: 14px; }
+.box-img {
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 5px;
+}

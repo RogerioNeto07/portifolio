@@ -3,6 +3,9 @@
     <div class="nome-box">
       <h3>{{ projeto().nome }}</h3>
     </div>
+    <div>
+      <img [src]="projeto().img" alt="{{ projeto().nome }}" class="box-img">
+    </div>
     <div class="desc-box">
       <p>{{ projeto().desc | resumir:40 }}</p>
     </div>

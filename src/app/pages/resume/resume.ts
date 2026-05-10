@@ -12,7 +12,12 @@ export class Resume {
   ]);
 
   habilidades = signal([
-    'Angular', 'TypeScript', 'CSS Grid', 'Node.js', 'Git/GitHub', 'Nebular'
+    { nome: 'Angular', docs: 'https://angular.dev/overview' },
+    { nome: 'TypeScript', docs: 'https://www.typescriptlang.org/docs/' },
+    { nome: 'CSS Grid', docs: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout' },
+    { nome: 'Node.js', docs: 'https://nodejs.org/en/docs/' },
+    { nome: 'Git/GitHub', docs: 'https://git-scm.com/doc' },
+    { nome: 'Nebular', docs: 'https://akveo.github.io/ng-nebular/' }
   ]);
 
   experiencias = signal([

@@ -23,7 +23,16 @@
   font-size: 18px;
 }
 
-.label { color: #00f2ff; margin-right: 10px; font-weight: bold; }
+.item-contato a {
+  text-decoration: none;
+}
+
+.item-contato a:hover {
+  text-decoration: underline !important;
+  text-decoration-color: #6001dc !important;
+}
+
+.label { color: #6001dc; margin-right: 10px; font-weight: bold; }
 .valor { color: #ccc; }
 
 .redes-lista {
@@ -46,7 +55,13 @@
 }
 
 .card-rede:hover {
-  border-color: #00f2ff;
+  border-color: #6001dc;
   transform: translateX(10px);
   background-color: #222;
+}
+
+.redes-lista span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
