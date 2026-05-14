@@ -12,27 +12,27 @@ export class Projects {
   meusProjetos = signal([
   { 
     nome: 'PartiuIF',
-    img: 'images/luffy_baseball.jpg',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.' 
+    img: 'images/partiu_if.jpg',
+    desc: 'Sistema de cadastro e gerenciamento de bolsas dos alunos dos IFs do nordeste.' 
   },
   { 
     nome: 'BibliONteca', 
     img: 'images/biblionteca.png',
-    desc: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' 
+    desc: 'Sistema de gerenciamento de bibliotecas' 
   },
   { 
-    nome: 'Portfólio',
-    img: 'images/bleach.jpg', 
-    desc: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.' 
+    nome: 'IFConnect',
+    img: 'images/IFConnect.png', 
+    desc: 'Sistema de comunicação entre alunos e professores do IF.' 
   },
   { 
-    nome: 'Angular v24',
-    img: 'images/law.jpg', 
-    desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' 
+    nome: 'Artisan',
+    img: 'images/Artisan.png', 
+    desc: 'Sistema de compra e venda de artesanatos.' 
   }
 ]);
 
   aviso(nome: string) {
-    alert('Você clicou no projeto: ' + nome);
+    alert('Você clicou no projeto: ' + nome + '. Gostaria de acessar mais detalhes? acesse o repositório do projeto no GitHub!: https://github.com/RogerioNeto07');
   }
 }

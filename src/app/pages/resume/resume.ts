@@ -8,7 +8,7 @@ import { Component, signal } from '@angular/core';
 })
 export class Resume {
   formacao = signal([
-    { curso: 'Técnico em Informática', instituicao: 'IFRN', ano: '2023 - Cursando' }
+    { curso: 'Análise e Desenvolvimento de Sistemas', instituicao: 'IFRN', ano: '2023 - Cursando' }
   ]);
 
   habilidades = signal([
@@ -24,12 +24,12 @@ export class Resume {
     { 
       cargo: 'Desenvolvedor Front-end', 
       empresa: 'Projeto Acadêmico', 
-      desc: 'Desenvolvimento de interfaces ricas com foco em usabilidade e Angular.' 
+      desc: 'Desenvolvedor no projeto PartiuIF no NADIC.' 
     },
     { 
-      cargo: 'Monitoria', 
-      empresa: 'IFRN', 
-      desc: 'Auxílio a alunos nas disciplinas de programação estruturada.' 
+      cargo: 'Esragiário', 
+      empresa: 'Ci-Tech', 
+      desc: 'Auxílio em manutenção de desktops e notebooks' 
     }
   ]);
 }

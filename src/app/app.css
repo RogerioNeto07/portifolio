@@ -20,5 +20,8 @@
 .foto-perfil img {
   border-radius: 24px;
   border: 2px solid #6001dc;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
   box-shadow: rgba(255, 255, 255, 0.315) 0px 2px 8px 0px;
 }
