@@ -35,10 +35,11 @@ html.light .card-botao {
   background-color: #9184ad;
   border: 2px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+  color: #FFF;
 }
 
 html.light .card-botao:hover {
-  background-color: #b294f0;
+  background-color: #605082;
 }
 
 /* ----- CONTACT PAGE ----- */
@@ -146,7 +147,7 @@ html.light .resume-card {
 
 html.light .resume-card:hover {
   border-color: #6001dc;
-  background-color: #222;
+  background-color: #605082;
 }
 
 html.dark .skill-tag {
@@ -180,7 +181,7 @@ html.light .skill-tag {
 html.light .skill-tag:hover {
   border-color: #956cca;
   color: #956cca;
-  background: #1a1a1a;
+  background: #605082;
 }
 
 html.dark .desc-exp {
@@ -213,7 +214,7 @@ html.dark .card:hover {
 }
 
 html.light .card {
-  background-color: #956cca;
+  background-color: #9184ad;
   border: 1px solid #333;
   border-radius: 10px;
   padding: 20px;
@@ -226,7 +227,7 @@ html.light .card {
 
 html.light .card:hover {
   border-color: #6001dc;
-  background-color: #222;
+  background-color: #605082;
 }
 
 html.dark .desc-box { color: #888; font-size: 14px; }

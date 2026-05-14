@@ -31,8 +31,8 @@
   text-decoration-color: #6001dc !important;
 }
 
-.label { color: #6001dc; margin-right: 10px; font-weight: bold; }
-.valor { color: #ccc; }
+.label { color: #FFF; margin-right: 10px; font-weight: bold; }
+.valor { color: #FFF; }
 
 .redes-lista {
   display: flex;
@@ -56,7 +56,7 @@
 .card-rede:hover {
   border-color: #6001dc;
   transform: translateX(10px);
-  background-color: #222;
+  background-color: #605082;
 }
 
 .redes-lista span {
