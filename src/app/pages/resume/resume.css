@@ -9,7 +9,7 @@
 
 h3 { color: #6001dc; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
 
-.resume-card {
+/* html.dark .resume-card {
   background-color: #1a1a1a;
   border: 1px solid #333;
   padding: 20px;
@@ -18,10 +18,10 @@ h3 { color: #6001dc; margin-bottom: 20px; display: flex; align-items: center; ga
   transition: 0.3s;
 }
 
-.resume-card:hover {
+html.dark .resume-card:hover {
   border-color: #6001dc;
   background-color: #222;
-}
+} */
 
 .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
 .card-header h4 { margin: 0; color: #fff; }
@@ -31,7 +31,7 @@ h3 { color: #6001dc; margin-bottom: 20px; display: flex; align-items: center; ga
 
 .tags-container { display: flex; flex-wrap: wrap; gap: 10px; }
 
-.skill-tag {
+/* .skill-tag {
   color: inherit;
   text-decoration: none;
   background: #333;
@@ -46,4 +46,4 @@ h3 { color: #6001dc; margin-bottom: 20px; display: flex; align-items: center; ga
   border-color: #6001dc;
   color: #6001dc;
   background: #1a1a1a;
-}
+} */

@@ -32,12 +32,13 @@ html.dark .card-botao:hover {
 }
 
 html.light .card-botao {
-  background-color: #e3e3e3;
-  border: 2px solid #000000;
+  background-color: #9184ad;
+  border: 2px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 }
 
 html.light .card-botao:hover {
-  background-color: #ffffff20;
+  background-color: #b294f0;
 }
 
 /* ----- CONTACT PAGE ----- */
@@ -48,8 +49,9 @@ html.dark .info-geral {
 }
 
 html.light .info-geral {
-  background-color: #242424;
-  border: 1px solid #000000;
+  background-color: #9184ad;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 }
 
 html.dark .card-rede {
@@ -58,8 +60,9 @@ html.dark .card-rede {
 }
 
 html.light .card-rede {
-  background-color: #242424;
-  border: 2px solid #000000;
+  background-color: #9184ad;
+  border: 2px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 }
 
 * {
@@ -116,3 +119,116 @@ html.light .titulo-pagina {
   background-color: #ffffff22;
   border-color: #6001dc;
 }
+
+html.dark .resume-card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+html.dark .resume-card:hover {
+  border-color: #6001dc;
+  background-color: #222;
+}
+
+html.light .resume-card {
+  background-color: #9184ad;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+html.light .resume-card:hover {
+  border-color: #6001dc;
+  background-color: #222;
+}
+
+html.dark .skill-tag {
+  color: inherit;
+  text-decoration: none;
+  background: #333;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+html.dark .skill-tag:hover {
+  border-color: #6001dc;
+  color: #6001dc;
+  background: #1a1a1a;
+}
+
+html.light .skill-tag {
+  color: inherit;
+  text-decoration: none;
+  background: #9184ad;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+
+html.light .skill-tag:hover {
+  border-color: #956cca;
+  color: #956cca;
+  background: #1a1a1a;
+}
+
+html.dark .desc-exp {
+  color: #888; 
+  font-size: 15px; 
+  line-height: 1.6;
+}
+
+html.light .desc-exp {
+  color: #d3d3d3; 
+  font-size: 15px; 
+  line-height: 1.6;
+}
+
+html.dark .card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+html.dark .card:hover {
+  border-color: #6001dc;
+  background-color: #222;
+}
+
+html.light .card {
+  background-color: #956cca;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+html.light .card:hover {
+  border-color: #6001dc;
+  background-color: #222;
+}
+
+html.dark .desc-box { color: #888; font-size: 14px; }
+
+html.light .desc-box { color: #d3d3d3; font-size: 14px; }
