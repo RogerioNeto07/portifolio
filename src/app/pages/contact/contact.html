@@ -7,7 +7,7 @@
 <div class="contato-container">
   <h2 class="titulo-pagina">Informações de contato:</h2>
 
-  <div class="info-geral">
+  <div class="info-geral animar-contato">
     <div class="item-contato">
       <span class="label">E-mail:</span>
       <a href="mailto:{{ email() }}" class="valor">{{ email() }}</a>
@@ -20,7 +20,7 @@
 
   <div class="redes-lista">
     @for (rede of redesSociais(); track rede.nome) {
-      <a [href]="rede.link" target="_blank" class="card-rede">
+      <a [href]="rede.link" target="_blank" class="card-rede animar-contato">
         <i [class]="rede.icone"></i>
         <span> {{ rede.nome }} <svg lucideArrowBigRight size="20"></svg></span>
       </a>

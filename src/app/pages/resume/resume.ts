@@ -1,4 +1,6 @@
-import { Component, signal } from '@angular/core';
+import { Component, signal, afterNextRender } from '@angular/core';
+
+declare var anime: any;
 
 @Component({
   selector: 'app-resume',
@@ -27,9 +29,22 @@ export class Resume {
       desc: 'Desenvolvedor no projeto PartiuIF no NADIC.' 
     },
     { 
-      cargo: 'Esragiário', 
+      cargo: 'Estagiário', 
       empresa: 'Ci-Tech', 
       desc: 'Auxílio em manutenção de desktops e notebooks' 
     }
   ]);
+
+  constructor() {
+    afterNextRender(() => {
+      anime({
+        targets: '.animar-curriculo',
+        translateY: [30, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(80),
+        duration: 800,
+        easing: 'easeOutQuad'
+      });
+    });
+  }
 }

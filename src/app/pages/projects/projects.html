@@ -4,15 +4,16 @@
   </a>
 </div>
 
-
 <h2 class="titulo-pagina">Projetos:</h2>
 
-<div class="grid-projetos">
+<div class="projetos-grid">
   @for (item of meusProjetos(); track item.nome) {
-    <app-card-projeto 
-      [projeto]="item" 
-      (clicado)="aviso($event)">
-    </app-card-projeto>
+    <div class="animar-card wrapper-card">
+      <app-card-projeto 
+        [projeto]="item" 
+        (clicado)="aviso($event)">
+      </app-card-projeto>
+    </div>
   } @empty {
     <p>Nenhum projeto encontrado.</p>
   }

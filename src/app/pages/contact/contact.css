@@ -64,3 +64,8 @@
   align-items: center;
   gap: 10px;
 }
+
+.animar-contato {
+  opacity: 0;
+  will-change: transform, opacity;
+}
