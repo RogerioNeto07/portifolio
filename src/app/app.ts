@@ -1,13 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet, RouterLink } from '@angular/router';
 import { Sidebar } from './components/sidebar/sidebar';
+import { MouseFollower } from './components/mouse-follower/mouse-follower';
 import { Theme } from './services/theme';
 import { LucideMoon, LucideSun } from '@lucide/angular';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Sidebar, RouterLink, LucideMoon, LucideSun],
+  imports: [RouterOutlet, Sidebar, MouseFollower, RouterLink, LucideMoon, LucideSun],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
