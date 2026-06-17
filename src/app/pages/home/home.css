@@ -1,28 +1,61 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.svg-wrapper {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.svg-demonstracao {
+  width: 100%;
+  height: 100%;
+}
+
 .menu-home {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  height: 100%;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
 }
 
 .card-botao {
-  /* background-color: #1a1a1a; */
   border: 2px solid #333;
   border-radius: 15px;
-  padding: 30px;
+  padding: 20px 30px;
   cursor: pointer;
-  transition: transform 0.3s, border-color 0.3s;
+  transition: transform 0.3s, border-color 0.3s, background-color 0.3s;
 }
 
 .card-botao h3 {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 18px;
+  color: white;
 }
 
 .card-botao:hover {
   border-color: #6001dc;
   transform: scale(1.02);
   background-color: #605082;
+}
+
+.home-container h1,
+.home-container p,
+.home-container .card-botao {
+  opacity: 0;
+  will-change: transform, opacity;
 }
