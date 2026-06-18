@@ -16,9 +16,7 @@ export class Home {
   constructor() {
     afterNextRender(() => {
       
-      // O setTimeout garante que o SVG já foi renderizado na tela antes do cálculo
       setTimeout(() => {
-        // 1. Força o Anime.js a calcular e animar o traçado do zero
         anime({
           targets: '.svg-demonstracao path',
           strokeDashoffset: [anime.setDashoffset, 0],
@@ -28,7 +26,6 @@ export class Home {
           loop: true
         });
 
-        // 2. Animação dos textos e botões logo em seguida
         anime({
           targets: '.home-container h1, .home-container p, .home-container .card-botao',
           translateY: [40, 0],
