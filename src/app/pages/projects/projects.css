@@ -3,35 +3,31 @@
   font-size: 24px;
 }
 
-/* Centraliza os itens na tela de forma harmônica */
 .projetos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
+  gap: 25px;
   padding: 20px 0;
   width: 100%;
 }
 
-/* O segredo: faz o wrapper e o componente filho ocuparem o espaço total da coluna */
 .animar-card {
-  opacity: 0; /* Volte para 0 para testarmos o Anime.js definitivo */
+  opacity: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
   will-change: transform, opacity;
 }
 
-/* Garante que o componente Angular do card se estique por igual */
 .animar-card app-card-projeto {
   width: 100%;
   height: 100%;
 }
 
-/* Controla as imagens para ficarem perfeitas e sem distorcer dentro do card */
 .animar-card ::ng-deep img {
   width: 100%;
   height: 180px;
-  object-fit: contain; /* Troquei para contain para o logo do IF e da Biblioteca não serem cortados */
-  background-color: #ffffff; /* Dá um fundo branco elegante para destacar as logos */
+  object-fit: contain;
+  background-color: #ffffff;
   border-radius: 8px;
 }
